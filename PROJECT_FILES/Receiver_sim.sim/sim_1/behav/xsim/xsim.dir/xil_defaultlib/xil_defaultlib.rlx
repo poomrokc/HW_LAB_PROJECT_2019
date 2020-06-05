@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sim_1/new/test.v,1591154435,verilog,,,,tester,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/imports/Basys_3_UART/receiver.v,1591154583,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/sevenselect.v,,receiver,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/halfclock.v,1590920421,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/imports/Basys_3_UART/receiver.v,,halfclock,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/output.v,1586751774,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/sync.v,,vgaSystem,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/sevenselect.v,1580624557,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/start_rom.v,,sevenselect,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/start_rom.v,1591011285,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/sync.v,,start_rom,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/sync.v,1586712738,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/title_rom.v,,vga_sync,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/title_rom.v,1590975513,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/toseven.v,,title_rom,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/toseven.v,1586755806,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/transmitter.v,,toseven,,,,,,,,
+C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sources_1/new/transmitter.v,1586718583,verilog,,C:/Users/dell/Downloads/Compressed/FAW2R9XIXGFN6HR/Receiver_sim/Receiver_sim.srcs/sim_1/new/test.v,,transmitter,,,,,,,,

@@ -1,0 +1,114 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jun  5 08:31:12 2020
+| Host         : DESKTOP-866ROQ8 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file receiver_control_sets_placed.rpt
+| Design       : receiver
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    42 |
+| Unused register locations in slices containing registers |   233 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           25 |
+|      2 |            1 |
+|      4 |            4 |
+|      6 |            2 |
+|     10 |            1 |
+|     11 |            1 |
+|     14 |            2 |
+|     15 |            1 |
+|    16+ |            5 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             113 |           69 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              35 |           10 |
+| Yes          | No                    | No                     |             185 |          128 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              18 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|           Clock Signal           |             Enable Signal            |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|  genblk1[10].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[12].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[11].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[23].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[22].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[24].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[16].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[17].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[21].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[2].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[13].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[3].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[26].hclock/tdc_26       |                                      |                          |                1 |              1 |
+|  clk_IBUF_BUFG                   |                                      | T1/TxD_i_1_n_0           |                1 |              1 |
+|  genblk1[25].hclock/tdc_25       |                                      |                          |                1 |              1 |
+|  genblk1[8].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[9].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[14].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[7].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[6].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[5].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[4].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[19].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[15].hclock/clkOut_reg_0 |                                      |                          |                1 |              1 |
+|  genblk1[1].hclock/clkOut_reg_0  |                                      |                          |                1 |              1 |
+|  genblk1[20].hclock/clkOut_reg_0 |                                      |                          |                2 |              2 |
+|  genblk1[27].hclock/CLK          |                                      |                          |                1 |              4 |
+|  clk_IBUF_BUFG                   | T1/bitcounter                        | T1/bitcounter[3]_i_1_n_0 |                1 |              4 |
+|  clk_IBUF_BUFG                   | bitcounter                           | bitcounter[3]_i_1__0_n_0 |                1 |              4 |
+|  clk_IBUF_BUFG                   | n0[3]_i_2_n_0                        | n0[3]_i_1_n_0            |                1 |              4 |
+|  clk_IBUF_BUFG                   |                                      | sw_IBUF[1]               |                1 |              6 |
+|  clk_IBUF_BUFG                   | T1/GAME_STATE_reg[0]                 | T1/CHAR_X_reg[5][0]      |                2 |              6 |
+|  clk_IBUF_BUFG                   | T1/rightshiftreg                     |                          |                3 |             10 |
+|  genblk1[18].hclock/CLK          |                                      |                          |                2 |             11 |
+|  clk_IBUF_BUFG                   |                                      | T1/counter[0]_i_1__0_n_0 |                4 |             14 |
+|  clk_IBUF_BUFG                   |                                      | counter[0]_i_1__1_n_0    |                4 |             14 |
+|  genblk1[20].hclock/clkOut_reg_0 | sel                                  |                          |                5 |             15 |
+|  clk_IBUF_BUFG                   | rxshiftreg                           |                          |               10 |             17 |
+|  clk_IBUF_BUFG                   | vga_sync_unit/h_count_reg[9]_i_1_n_0 |                          |               17 |             22 |
+|  clk_IBUF_BUFG                   | T1/state_reg_0                       |                          |               43 |             56 |
+|  clk_IBUF_BUFG                   | vga_sync_unit/v_count_reg0           |                          |               50 |             65 |
+|  clk_IBUF_BUFG                   |                                      |                          |               40 |             72 |
++----------------------------------+--------------------------------------+--------------------------+------------------+----------------+
+
+
